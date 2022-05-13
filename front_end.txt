@@ -1,0 +1,79 @@
+フロント側開発環境構築：
+    1.node.jsのインストール
+    node.jsをインストールすれば、node.jsとnpm両方使える。
+
+    2.gitのインストール
+    gitをインストールすれば、GitHub,GitLabにソースを管理できる。
+
+    設定手順：
+        1.任意のところに右クリックして、git bashを選択して、押下するとコマンドダイヤログが表示される。
+        メールアドレスの登録
+            git config --global user.name "githubのユーザー名"
+            git config --global user.name "loujun119"
+            git config --global user.email "githubのメールアドレス"
+            git config --global user.email "loujun119@yahoo.com"
+        2.SSHキー設定
+        2.1 SHHキー生成
+            ssh-keygen -t rsa -C "githubのメールアドレス"
+            3,4回Enterを押下して、キーが生成できる。
+        2.2 SSHキー取得
+            C:\ユーザー\ユーザー名\.sshに移動して、"隠しファイル"を設定して、隠しファイルが表示できるようにする
+            ファイル「"id_rsa.pub"」を開く、全部をコピーする。
+        2.3 GitLabやGitHubサイトにログインして、settingsを押下して、個人設定ページを開く、
+            左側の「SSH and GPG keys」をクリックして、New SSH　keyボタンをクリックして、2.2でコピーされた内容を
+            ペーストする。
+
+    3.TortoiseGitのインストール
+    TortoiseGitをインストールすれば、gitでソースコードをclone,pull,commit,pushできる。(pull,commit,pushはVS Codeで実行したほうが良い)
+
+    4.yarnのインストール
+    yarnはnpmと同じ、ラボラトリー管理、プロジェクトのstart,buildができる。
+    yarnはnpmより、ラボラトリーをダウンロードする時、バージョンの設定ほうが良い。
+    npmは時々ラボラトリーをインストール失敗のことが発生する。
+
+    5.Postmanのインストール
+    Postmanをインストールすれば、サーバ側のAPI(確認)テストができる。
+
+    6.VS Codeのインストール
+    フロント側開発専用ツール。
+    お勧めExtensions:
+    1.Bracket Pair Colorizer 2
+    2.Auto Rename Tag
+    3.Beautify
+    4.Code Spell Checker
+    5.css-auto-prefix
+    6.Eclipse Keymap(個人用)
+    7.ES7+ React/Redux/React-Native snippets
+    8.ESLint
+    9.Git Graph
+    10.Git History
+    11.HTML CSS Support
+    12.HTML Snippets
+    13.HTML to CSS autocompletion
+    14.Live Server
+    15.npm Intellisense
+    16.Prettier - Code formatter
+    17.Simple React Snippets
+    18.Trailing Spaces
+    19.TSLint
+
+関連の開発ツール：
+    7.WinMerger
+    差分を洗い出す
+    8.Sakura
+    テキストファイル用
+    9.7-Zip
+    ZIP圧縮、展開
+
+    10.Chrome と Edgeの拡張機能
+    10.1 React Developer Tools
+        reactプロジェクトのコンポーネント構成を確認できる。
+    10.2 Redux DevTools
+        reduxのstoreに保存されてるデータが確認できる。
+
+    react: 18.1.0;
+    redux: 4.2.0
+    typescript: 4.6.0
+    node: 16.15.0
+    npm: 8.5.5
+    yarn: 1.22.18
