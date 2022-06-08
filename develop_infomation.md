@@ -48,4 +48,11 @@
     https://zenn.dev/nash/articles/df6011609bdd34
     https://zenn.dev/irico/articles/acafb8bc7fb7f7
     https://qiita.com/hellokenta/items/6b795501a0a8921bb6b5
-    https://qiita.com/teradonburi/items/5b8f79d26e1b319ac44f
+    https://qiita.com/teradonburi/items/5b8f79d26e1b319ac44f.
+
+14. mock
+    https://github.com/safak/youtube2022/tree/react-testing
+    https://www.youtube.com/watch?v=oMv2eAGWtZU
+    https://github.com/mswjs/examples/tree/master/examples/with-redux-saga
+
+    https://github.com/CodingWith-Adam/react-test-fetch-api-call-with-msw
