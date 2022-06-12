@@ -65,3 +65,15 @@
     https://www.youtube.com/watch?v=4jMAnIIEI3M
     https://github.com/weibenfalk/react-query-week/tree/main/5-react-query-useInfiniteQuery
     https://www.bilibili.com/video/BV1pD4y1c7Wu?from=search&seid=13921733379838544052&spm_id_from=333.337.0.0&vd_source=d46c2fd8bede7d80a5f25efb11e5704a
+
+    API: ...reviews?limit=5&page=1
+    DB: page=1;
+        const prePageLastNumber = page * limit;
+        const reviewList = ...
+        const prePageLastReviewId = reviewList[prePageLastNumber - 1].id
+    {
+      page: 1,
+      total_page: 3
+      result: {data}
+    }
+    余数: a % b = 0 没有余数,整除
