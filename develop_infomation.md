@@ -56,3 +56,12 @@
     https://github.com/mswjs/examples/tree/master/examples/with-redux-saga
 
     https://github.com/CodingWith-Adam/react-test-fetch-api-call-with-msw
+
+15. react query
+    https://cangsdarm.github.io/react-query-web-i18n/guides&concepts/infinite-queries
+    https://react-query.tanstack.com/reference/useInfiniteQuery
+    https://github.com/mswjs/data#querying-data
+    https://blog.logrocket.com/pagination-infinite-scroll-react-query-v3/
+    https://www.youtube.com/watch?v=4jMAnIIEI3M
+    https://github.com/weibenfalk/react-query-week/tree/main/5-react-query-useInfiniteQuery
+    https://www.bilibili.com/video/BV1pD4y1c7Wu?from=search&seid=13921733379838544052&spm_id_from=333.337.0.0&vd_source=d46c2fd8bede7d80a5f25efb11e5704a
